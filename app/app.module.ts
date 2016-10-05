@@ -8,8 +8,6 @@ import { ProfileComponent }  from './components/profile/profile.component';
 import { HomeComponent }  from  './components/home/home.component';
 import { Auth } from  './services/auth.service';
 
-
-
 @NgModule({
   imports: [ BrowserModule, routing ],
   declarations: [ AppComponent, ProfileComponent, HomeComponent ],
