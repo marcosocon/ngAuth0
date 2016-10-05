@@ -1,1 +1,11 @@
-PROFILE
+<div class="row">
+  <div class="col-md-2">
+    <img src="{{profile.picture}}" class="img-circle"/>
+  </div>
+  <div class="col-md-10">
+    <h3>{{profile.nickname}}'s profile</h3>
+    <p>Email: {{profile.email}}</p>
+    <p>Last Update : {{profile.created_at}}</p>
+    <p *ngIf="!profile.email_verified">You need to verify your email</p>
+  </div>
+</div>
